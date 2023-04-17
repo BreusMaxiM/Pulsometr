@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .container {
+    max-width: 960px;
+    }
+}
+    
+@media (max-width: 1000px) {
+    .container {
+    max-width: 720px;
+    }
+}
+    
+@media (max-width: 768px) {
+    .container {
+    max-width: 540px;
+    }
+    .header{
+        &__offical{
+            display: none;
+        }
+    }
+    .advantages{
+        &__items{
+            width: 170px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__descr{
+            font-size: 13px;
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+    
+
+}
+    
+@media (max-width: 576px) {
+    .container {
+    max-width: 100%;
+    padding: 0 10px;
+    }
+}
