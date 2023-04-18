@@ -42,4 +42,50 @@
     max-width: 100%;
     padding: 0 10px;
     }
+
+    .header{
+        &__logo{
+            width: 130px;
+            img{
+                width: 100%;
+            }
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+
+    .promo{
+        &__wrapper{
+            align-items:center;
+        }
+        &__header{
+            font-size: 36px;
+            text-align: center;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__icons{
+            margin-right: 0;
+        }
+    }
+
+    .advantages{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            margin-bottom: 10px;
+        }
+    }
+
+    .consultation{
+        &__title{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
 }
