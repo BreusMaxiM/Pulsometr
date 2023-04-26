@@ -1,0 +1,46 @@
+.slider{
+    min-height: 572px;
+    margin: 108px;
+    &__wrapper{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 5% 70% 5%;
+    }
+    &__button_left{
+        height: 31px;
+        width: 23px;
+        margin: 0 auto;
+        background: url(../icons/left.svg) center (center/cover) no-repeat;
+    }
+    &__img{
+        position: relative;
+        margin: 0 auto;
+        z-index: -1;
+        height: 572px;
+        width: 750px;
+        overflow: hidden;
+        &__conteiner{
+            
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            transition: 0.5s all;
+            img{
+                z-index: -1;
+                top: 50%;
+                margin: auto;
+                position: absolute;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    &__button_right{
+        margin: 0 auto;
+        height: 31px;
+        width: 23px;
+        background: url(../icons/right.svg) center (center/cover) no-repeat;
+    }
+}
